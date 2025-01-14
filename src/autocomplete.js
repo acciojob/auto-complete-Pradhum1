@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const fruit = ["apple", "banana", "cherry", "date", "elderberry", "fig"]
+const fruits = ["apple", "banana", "cherry", "date", "elderberry", "fig"]
 
 const Autocomplete =()=>{
     const[searchValue, setSearchValue]= useState('');
